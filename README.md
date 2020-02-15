@@ -7,7 +7,7 @@
 ## 目录
 
 + JavaScript
-  + [2020-02-11](./docs/puzzles/JavaScript/2020-02-11.md)
+  + [2020-02-11](docs/puzzles/2020-02-11.md)
 
 ## 如何使用？
 
