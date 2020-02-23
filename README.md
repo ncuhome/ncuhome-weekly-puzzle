@@ -14,6 +14,7 @@
   + [第一周：var 与 let](docs/puzzles/w1.md)
     + [answer](docs/answers/w1.md)
   + [第二周：this 的指向](docs/puzzles/w2.md)
+    + [answer](docs/answers/w2.md)
 
 ## 如何使用？
 
