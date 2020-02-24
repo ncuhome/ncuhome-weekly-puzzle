@@ -15,7 +15,7 @@
     + [answer](docs/answers/w1.md)
   + [第二周：this 的指向](docs/puzzles/w2.md)
     + [answer](docs/answers/w2.md)
-  + [第三周：== 之迷](docs/puzzles/w3.md)
+  + [第三周：== 之谜](docs/puzzles/w3.md)
 
 ## 如何使用？
 
