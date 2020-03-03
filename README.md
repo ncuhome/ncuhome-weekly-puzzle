@@ -17,6 +17,8 @@
     + [answer](docs/answers/w2.md)
   + [第三周：== 之迷](docs/puzzles/w3.md)
 
+  + [第四周：try...catch...finally 问题](docs/puzzles/w4.md)
+
 ## 如何使用？
 
 请将自己的解答提交到题目下方的收集表中。
