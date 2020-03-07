@@ -16,8 +16,8 @@
   + [第二周：this 的指向](docs/puzzles/w2.md)
     + [answer](docs/answers/w2.md)
   + [第三周：== 之谜](docs/puzzles/w3.md)
-
   + [第四周：try...catch...finally 问题](docs/puzzles/w4.md)
+  + [第五周：`delete`](docs/puzzles/w5.md)
 
 ## 如何使用？
 
