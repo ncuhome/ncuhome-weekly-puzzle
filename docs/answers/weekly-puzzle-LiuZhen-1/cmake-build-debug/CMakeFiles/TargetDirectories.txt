@@ -1,3 +1,0 @@
-D:/projects/weekly-puzzle-LiuZhen-1/cmake-build-debug/CMakeFiles/weekly_puzzle_LiuZhen_1.dir
-D:/projects/weekly-puzzle-LiuZhen-1/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/projects/weekly-puzzle-LiuZhen-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,4 +1,0 @@
-ToolSet: w64 6.0 (local)@D:\chocolatey\lib\mingw\tools\install\mingw64
-Options: 
-
-Options:
