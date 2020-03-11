@@ -1,4 +1,4 @@
-# 家园工作室研发组每周一题 JS
+# 家园工作室研发组每周一题
 
 每周日更新一题，一起构建坚实的语言基础。
 
@@ -12,12 +12,14 @@
 
 + JavaScript
   + [第一周：var 与 let](docs/puzzles/w1.md)
-    + [answer](docs/answers/w1.md)
   + [第二周：this 的指向](docs/puzzles/w2.md)
     + [answer](docs/answers/w2.md)
-  + [第三周：== 之迷](docs/puzzles/w3.md)
-
+  + [第三周：== 之谜](docs/puzzles/w3.md)
   + [第四周：try...catch...finally 问题](docs/puzzles/w4.md)
+  + [第五周：`delete`](docs/puzzles/w5.md)
+
++ 算法题
+  + [第一周：寻找数组中重复的数字](docs/puzzles/算法题_w1_寻找数组中重复的数字.md)
 
 ## 如何使用？
 
