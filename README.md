@@ -19,6 +19,8 @@
   + [第四周：try...catch...finally 问题](docs/puzzles/w4.md)
   + [第五周：`delete`](docs/puzzles/w5.md)
 
++ 算法题
+  + [第一周：寻找数组中重复的数字](docs/puzzles/算法题_w1_寻找数组中重复的数字.md)
 ## 如何使用？
 
 请将自己的解答提交到题目下方的收集表中。
