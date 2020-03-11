@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/projects/weekly-puzzle-LiuZhen-1/main.cpp
+iostream
+-
+vector
+-
+ctime
+-
+cstdlib
+-
+algorithm
+-
+
