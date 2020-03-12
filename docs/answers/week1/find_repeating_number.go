@@ -25,14 +25,21 @@ func find(arr []int) int {
 func main() {
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Println("Please enter an array (which can contain Spaces but must have '[', ']' and ',') as follows: [2, 3, 1, 0, 2, 5, 3]")
-	arrStr, _ := reader.ReadString('\n')
+	arrStr, err := reader.ReadString('\n')
+	if err != nil {
+		fmt.Println("Error: reader.ReadString:", err)
+	}
 	reg := regexp.MustCompile(`\s`)
 	arrByte := []byte(reg.ReplaceAllString(string(arrStr), ""))
 	arrLen := (len(arrByte) - 1) / 2
 	arr := make([]int, arrLen)
-	for k := range arr {
-		arr[k], _ = strconv.Atoi(string(arrByte[k * 2 + 1]))
+	for i := 0; i < arrLen; i++ {
+		arr[i], err = strconv.Atoi(string(arrByte[i*2+1]))
+		if err != nil {
+			fmt.Println("Error: strconv.Atoi:", err)
+		}
 	}
+
 	// 上面这些都没啥用
 	if res := find(arr); res < 0 {
 		fmt.Println("None")
