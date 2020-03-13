@@ -37,3 +37,13 @@ const findDuplicate3 = (arr: number[]) => {
    */
   }
 }
+
+const findDuplicate4 = (arr: number[]) => {
+  for (let i = 0; i < arr.length; i++) {
+    const curr = arr[i]
+    if (curr !== i) {
+      if (curr === arr[curr]) return curr
+      ;[arr[i], arr[curr]] = [arr[curr], arr[i]]
+    }
+  }
+}
