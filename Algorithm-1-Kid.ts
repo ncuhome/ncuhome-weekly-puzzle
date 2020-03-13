@@ -10,16 +10,20 @@ const findDuplicate2 = (arr: number[]) => {
   for (let i = 0; i < arr.length; i++) {
     if (arr.indexOf(arr[i], i + 1) > 0) return arr[i]
   }
+  /* 也可以改写成用 Array.prototype.find：
+   * for (const i of arr) {
+   *   if (arr.find((j, k) => i === j && arr.indexOf(i) !== k)) return i
+   * 或者 Array.prototype.findIndex：
+   *   if (arr.findIndex((j, k) => i === j && arr.indexOf(i) !== k) > 0) return i
+   * }
+   */
 }
 
 const findDuplicate3 = (arr: number[]) => {
-  for (const i of arr) {
-    if (arr.find((j, k) => i === j && arr.indexOf(i) !== k)) return i
-  }
-}
-
-const findDuplicate4 = (arr: number[]) => {
-  for (const i of arr) {
-    if (arr.findIndex((j, k) => i === j && arr.indexOf(i) !== k) > 0) return i
+  const set = new Set()
+  for (const num of arr) {
+    const before = set.size
+    set.add(num)
+    if (set.size === before) return num
   }
 }
