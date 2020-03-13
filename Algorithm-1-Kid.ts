@@ -10,7 +10,8 @@ const findDuplicate2 = (arr: number[]) => {
   for (let i = 0; i < arr.length; i++) {
     if (arr.indexOf(arr[i], i + 1) > 0) return arr[i]
   }
-  /* 也可以改写成用 Array.prototype.find：
+  /*
+   * 也可以改写成 Array.prototype.find：
    * for (const i of arr) {
    *   if (arr.find((j, k) => i === j && arr.indexOf(i) !== k)) return i
    * 或者 Array.prototype.findIndex：
@@ -25,5 +26,14 @@ const findDuplicate3 = (arr: number[]) => {
     const before = set.size
     set.add(num)
     if (set.size === before) return num
+  }
+  /*
+   * 也可以直接用数组：
+   * const set = []
+   *  for (const num of arr) {
+   *    if (set.indexOf(num) >= 0) return num
+   *    set.push(num)
+   * }
+   */
   }
 }
