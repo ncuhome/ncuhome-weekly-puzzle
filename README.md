@@ -17,8 +17,9 @@
   + [第三周：== 之谜](docs/js/w3.md)
   + [第四周：try...catch...finally 问题](docs/js/w4.md)
   + [第五周：`delete`](docs/js/w5.md)
-+ [第六周：闭包](docs/js/w6.md)
   
+  - [第六周：闭包](docs/js/w6.md)
 + 算法题
+  
   + [第一周：寻找数组中重复的数字](docs/algorithm/算法题_w1_寻找数组中重复的数字.md)
 
