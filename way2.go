@@ -3,18 +3,17 @@ package main
 import "fmt"
 
 func Array1(nums []int) int {
-	maps:=make(map[int]bool)
-	for _,j:=range nums{
-		if maps[j] {
-			return j
-		}else {
-			maps[j]=true
+	for a1,_:=range nums{
+		for a2,_:=range nums{
+			if a1==a2{
+				return a1
+			}
 		}
 	}
-	return -1
+	return 0
 }
 func main(){
-	array:=[]int{3,1,2,3}
+	array:=[]int{2,2,1}
 	answer:=Array1(array)
 	fmt.Println(answer)
 }
