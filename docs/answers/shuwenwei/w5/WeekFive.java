@@ -63,7 +63,7 @@ class PointNodeFactory {
         public PointNode(int x, int y) {
             this.x = x;
             this.y = y;
-            
+            this.size = 1;
             this.previousNode = this;
         }
 
