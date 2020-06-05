@@ -24,3 +24,4 @@
   + [第二周：最长上升子列和](docs/algorithm/算法题_w2_最长上升子序列长度.md)
   + [第三周：无重复字符最长子串](docs/algorithm/算法题_w3_无重复字符的最长子串.md)
   + [第四周：青蛙跳台阶问题](docs/algorithm/算法题_w4_青蛙跳台阶.md)
+  + [第五次：岛屿数量](docs/algorithm/算法题_5_岛屿数量.md)
